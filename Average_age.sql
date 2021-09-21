@@ -1,0 +1,1 @@
+SELECT AVG(YEAR(NOW())-YEAR(birthday_at)) as `Average` FROM users;
